@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <RutFormat/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RutFormat from './components/RutFormat.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RutFormat
   }
 }
 </script>
